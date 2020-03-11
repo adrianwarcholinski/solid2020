@@ -66,7 +66,6 @@ public class BookAndPrinter {
      * @return
      */
     public String printAllPages() {
-
         String allPages = new String();
         for(Map.Entry<Integer, String> page : pages.entrySet()) {
             allPages += (page.getKey() + " " + page.getValue());
